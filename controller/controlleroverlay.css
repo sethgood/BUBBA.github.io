@@ -1,51 +1,44 @@
 
-/* BUBBA WHIFF GOD - PS4 Controller Overlay */
+/* BUBBA WHIFF GOD - PS4 Controller */
 
 /* Main controller artwork */
-.controller.ds4.white.edit {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/base3.png") !important;
-    background-color: transparent !important;
-}
-
-/* Disconnected controller */
-.controller.ds4.white.edit.disconnected {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/disconnected.svg") !important;
-}
-
-/* Triggers */
-.controller.ds4.white.edit .trigger {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/triggers.svg") !important;
-}
-
-/* Bumpers */
-.controller.ds4.white.edit .bumper {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/bumper.svg") !important;
-}
-
-/* Touchpad */
-.controller.ds4.white.edit .touchpad.pressed {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/touchpad.svg") !important;
-}
-
-/* Share and Options buttons */
-.controller.ds4.white.edit .back,
-.controller.ds4.white.edit .start {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/start.svg") !important;
-}
-
-/* Face buttons */
-.controller.ds4.white.edit .button {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/face.svg") !important;
+.controller.ds4.white {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/base3.png) !important;
 }
 
 /* Analog sticks */
-.controller.ds4.white.edit .stick {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/sticks.svg") !important;
+.ds4.white .stick {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/sticks.svg) !important;
 }
 
 /* D-pad */
-.controller.ds4.white.edit .face {
-    background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/dpad.svg") !important;
+.ds4.white .face {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/dpad.svg) !important;
 }
 
-/* END BUBBA WHIFF GOD */
+/* Bumpers */
+.ds4.white .bumper {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/bumper.svg) !important;
+}
+
+/* Triggers */
+.ds4.white .trigger {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/triggers.svg) !important;
+}
+
+/* Touchpad */
+.ds4.white .touchpad.pressed {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/touchpad.svg) !important;
+}
+
+/* Share and Options */
+.ds4.white .back,
+.ds4.white .start {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/start.svg) !important;
+}
+
+/* Face buttons */
+.ds4.white .button {
+    background-image: url(https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/face.svg) !important;
+}
+
