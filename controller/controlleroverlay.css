@@ -1,38 +1,51 @@
-/* BUBBA WHIFF GOD - PS4 Controller */
 
-.controller.ds4.white {
+/* BUBBA WHIFF GOD - PS4 Controller Overlay */
+
+/* Main controller artwork */
+.controller.ds4.white.edit {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/base3.png") !important;
+    background-color: transparent !important;
 }
 
-.ds4.white.disconnected {
+/* Disconnected controller */
+.controller.ds4.white.edit.disconnected {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/disconnected.svg") !important;
 }
 
-.ds4.white .trigger {
+/* Triggers */
+.controller.ds4.white.edit .trigger {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/triggers.svg") !important;
 }
 
-.ds4.white .bumper {
+/* Bumpers */
+.controller.ds4.white.edit .bumper {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/bumper.svg") !important;
 }
 
-.ds4.white .touchpad.pressed {
+/* Touchpad */
+.controller.ds4.white.edit .touchpad.pressed {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/touchpad.svg") !important;
 }
 
-.ds4.white .back,
-.ds4.white .start {
+/* Share and Options buttons */
+.controller.ds4.white.edit .back,
+.controller.ds4.white.edit .start {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/start.svg") !important;
 }
 
-.ds4.white .button {
+/* Face buttons */
+.controller.ds4.white.edit .button {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/face.svg") !important;
 }
 
-.ds4.white .stick {
+/* Analog sticks */
+.controller.ds4.white.edit .stick {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/sticks.svg") !important;
 }
 
-.ds4.white .face {
+/* D-pad */
+.controller.ds4.white.edit .face {
     background-image: url("https://raw.githubusercontent.com/sethgood/BUBBA.github.io/main/controller/dpad.svg") !important;
 }
+
+/* END BUBBA WHIFF GOD */
